@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership Training Conference 2026</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <img src="nifes-logo.png" alt="NIFES Logo" class="logo">
+        <h1 class="ltc-title">LTC</h1>
+        <h2 class="theme-subtitle">RIPE FOR HARVEST: THE LEADER AS THE HARVESTER</h2>
+        <p class="conference-date">12th – 15th February, 2026</p>
+    </header>
+
+    <!-- Signup Form Section -->
+    <main class="signup-form-section">
+        <form id="signup-form">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="campus">Campus</label>
+            <input type="text" id="campus" name="campus" required>
+
+            <label for="level">Level</label>
+            <select id="level" name="level" required>
+                <option value="100">100 Level</option>
+                <option value="200">200 Level</option>
+                <option value="300">300 Level</option>
+                <option value="400">400 Level</option>
+                <option value="500">500 Level</option>
+            </select>
+
+            <label for="expectations">Expectations</label>
+            <textarea id="expectations" name="expectations" rows="4"></textarea>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
