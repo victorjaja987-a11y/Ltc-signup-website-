@@ -1,0 +1,61 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: #004d00; /* Deep green */
+}
+
+.hero-section {
+    background-image: url('farm-field-background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+}
+
+.ltc-title {
+    font-size: 100px;
+    color: #eaff00; /* Neon yellow */
+    margin: 20px 0;
+}
+
+.theme-subtitle {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.conference-date {
+    font-size: 24px;
+    color: #eaff00;
+}
+
+.signup-form-section {
+    background-color: rgba(0, 77, 0, 0.8);
+    padding: 40px;
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.signup-form-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.signup-form-section input, .signup-form-section select,
